@@ -43,7 +43,7 @@ export class UsersService {
     return '';
   }
 
-  async getUserInfo(userId: string): Promise<UserInfo> {
+  async getUserInfo(userId: string): Promise<string> {
     return undefined;
   }
 }
